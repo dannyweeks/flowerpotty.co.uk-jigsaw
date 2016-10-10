@@ -1,0 +1,77 @@
+@import "../../../node_modules/foundation-sites/scss/foundation";
+@import 'settings';
+
+@include foundation-everything();
+
+@import "foundations/fonts";
+@import 'foundations/variables';
+
+.primary-background {
+    background-color: $primary-color;
+    color: white;
+}
+
+@import 'layout/nav';
+
+.top-line {
+    height: 5px;
+    background-color: $primary-color;
+}
+
+.hero {
+    background: url("/images/hero.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 120px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #86A290;
+    margin-bottom: 10px;
+}
+
+.call-out {
+    background-color: rosybrown;
+}
+
+#home {
+    padding-top: $global-padding;
+}
+//
+//.hero {
+//    background: url("/images/hero.jpg") no-repeat center center;
+//    background-size: cover;
+//    min-height: 310px;
+//    padding-top: 68px;
+//}
+
+section {
+    margin: 60px 0;
+}
+
+.dark-container {
+    background-color: #61826C;
+    color:  white;
+    a {
+        color: #fff;
+        text-decoration: underline;
+
+        &:hover, &:active, &:focus {
+            color: #fff;
+        }
+    }
+}
+
+// http://paletton.com/#uid=12W0u0kathP5nrG8dmncrbGjJb0
+
+.social {
+    i {
+        color: white;
+    }
+}
+.facebook:hover {
+    color: #3b5998;
+}

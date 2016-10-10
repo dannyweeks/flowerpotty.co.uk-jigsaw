@@ -1,0 +1,10 @@
+.nav-container {
+
+    @extend .text-center;
+
+    a {
+        color: $white;
+        font-family: $header-font-family;
+        font-size: 1.7em;
+    }
+}
